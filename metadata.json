@@ -1,0 +1,6 @@
+{
+  "name": "ScholarFind – Smart Scholarship Finder",
+  "description": "Intelligent, deterministic rule-based scholarship discovery platform for students in India with verified government and private scholarship matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

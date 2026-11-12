@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Design System: Midnight Navy + Emerald + Warm Ivory */
+    --color-primary: #142B4A;
+    --color-secondary: #244C74;
+    --color-accent: #159A80;
+    --color-accent-hover: #12826C;
+    --color-bg: #F7F8F5;
+    --color-card: #FFFFFF;
+    --color-text-primary: #202B38;
+    --color-text-secondary: #718096;
+    --color-border: #E5EAE8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F7F8F5;
+    color: #202B38;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    color: #142B4A;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar and subtle transitions */
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F8F5;
+}
