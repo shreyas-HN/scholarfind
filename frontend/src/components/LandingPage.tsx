@@ -104,9 +104,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden shadow-sm border border-[#E5EAE8] bg-white aspect-[16/10] sm:aspect-[16/9] lg:aspect-[4/3]">
                 <img
-                  src="/src/assets/images/hero_indian_students_1793626287446.jpg"
+                  src="/images/hero_indian_students_1793626287446.jpg"
                   alt="Indian college students studying on campus"
-                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#142B4A]/80 via-transparent to-transparent flex items-end p-5">
@@ -283,7 +282,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
             <div className="lg:col-span-5 relative aspect-[4/3] lg:aspect-auto lg:h-full min-h-[300px]">
               <img
-                src="/src/assets/images/scholarship_success_indian_1793626288221.jpg"
+                src="images/scholarship_success_indian_1793626288221.jpg"
                 alt="Smiling student holding acceptance letter"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
